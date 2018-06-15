@@ -12,7 +12,6 @@ jQuery(function($) {
           stop = Math.round($(window).scrollTop());
           if (stop > mainbottom) {
               $('.navbar').addClass('past-main');
-              $('.navbar').addClass('effect-main');
               document.getElementById("brand-img").src="./img/nxsensor-logo-blue.png";
           } else {
               $('.navbar').removeClass('past-main');
