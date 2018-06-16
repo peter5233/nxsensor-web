@@ -2437,6 +2437,10 @@ ul.social-network li {
 	color:#fefefe;
 }
 
+#inner-headline .page-header {
+	border-bottom:none;
+}
+
 
 #inner-headline .inner-heading h2 {
 	color:#fff;
@@ -2538,10 +2542,32 @@ ul.breadcrumb li a:hover {
 	color: #333333 ;
 }
 
+#main-content ul.downloads {
+	font-family: Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	/*list-style-type: disc;*/
+	/*list-style-position: inside;*/
+	list-style:none;
+	display:inline-block;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+	font-size: 16px;
+	/*font-weight: 400;*/
+	color: #333333 ;
+}
+
 
 #main-content img {
 	margin-bottom: 30px;
+    padding: 3px !important;
+    margin: 3px !important;
 }
+
+#main-content p.imgdesc{
+	font-style: italic;
+	color:#656565;
+}
+
 
 /* ===============================
 	Divider, Line & Misc
@@ -2602,3 +2628,24 @@ a.scrollup i {
 a.scrollup i:hover {
 	text-decoration:none;
 }
+
+/*
+ul.downloads{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.downloads li{
+	margin:15 0 15px 0;
+	list-style:none;
+	display:inline-block;
+}
+
+ul.downloads li a{
+	padding-top: 20px;
+	color:#353535;
+	font-size:16px;
+	font-weight:400;
+}
+*/
