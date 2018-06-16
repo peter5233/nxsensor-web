@@ -91,7 +91,7 @@ html * {
 }
 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -125,13 +125,13 @@ p {
 
 .error-message {
 	color: #FF3333;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#009900;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 5px;
 }
 
@@ -172,7 +172,7 @@ p {
 
 .navbar {
 	font-size: 14px;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	text-transform: capitalize;
 	padding-top: 25px;
@@ -489,7 +489,7 @@ p {
 }
 
 .hero-content p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #A1A1A1;
 	font-weight: 400;
@@ -499,7 +499,7 @@ p {
 
 
 .btn-action {
- font-family: 'Poppins', sans-serif !important;
+ font-family: Arial, Helvetica, sans-serif;
  background-color: #006699;
  border: 1px solid #006699;
  border-radius: 0;
@@ -617,7 +617,7 @@ font-family: 'Arial';
 }
 
 .form .hero-content p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #A1A1A1;
 	font-weight: 400;
@@ -741,7 +741,7 @@ font-family: 'Arial';
 }
 
 .signup-form p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #DDDDDD;
 	margin: 25px 0 10px 0;
@@ -971,7 +971,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app-info span {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #222222;
@@ -1159,16 +1159,18 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .pitch-intro p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #A1A1A1;
 	letter-spacing: 0;
 }
 
-/*font-family: 'Poppins', sans-serif !important;*/
-/*font-family: 'sans-serif', Poppins !important;*/
-/*font-family: 'sans-serif', sans-serif !important;*/
+/*peter-family: 'Poppins', sans-serif !important;*/
+/*peter-family: 'sans-serif', Poppins !important;*/
+/*peter-family: 'sans-serif', sans-serif !important;*/
+/*peter-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+/*peter-family: Arial, Helvetica, sans-serif;*/
 
 .pitch-icon {
 	margin: 0 0 10px 0;
@@ -1202,7 +1204,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .pitch-content p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #A1A1A1;
@@ -1341,7 +1343,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .software .features .features-list ul li {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	font-size: 13px;
 	margin: 0 0 15px 0;
@@ -1365,7 +1367,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .feature-sub .sub-inner h1 {
-	font-family: 'Josefin Sans';
+	/*font-family: 'Josefin Sans';*/
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 34px;
 	font-weight: 300;
 	line-height: 1;
@@ -1449,7 +1452,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app-features p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #A1A1A1;
@@ -1496,7 +1499,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app-features .feature-single p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #A1A1A1;
 	line-height: 1.4;
@@ -1596,7 +1599,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .review-text p {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 	font-weight: 300;
   padding: 20px 10px 20px 10px;
@@ -1636,7 +1639,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .pricing p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #444444;
@@ -1715,7 +1718,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1730,7 +1733,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1745,7 +1748,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .table-left .pricing-details li, .table-right .pricing-details li {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #505050;
@@ -1838,7 +1841,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .cta-sub .cta-inner p {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 300;
@@ -1869,7 +1872,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .subscribe-form input {
   color: #222222;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   font-size: 0.9em;
 }
@@ -1924,7 +1927,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .formee input {
   color: #222222;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   font-size: 0.9em;
 	height: 49px;
@@ -1959,14 +1962,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	position: absolute;
 	left: 0;
 	top: 150%;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FF0000;
 }
 
 #response {
 	color: #FFFFFF;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 30px;
 	font-size: 14px;
 	line-height: 1.4;
@@ -2039,7 +2042,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .footer-menu li {
 	display: inline;
 	line-height: 2;
-	font-family: 'Poppins', sans-serif !important;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	padding-right: 15px;
 	text-transform: capitalize;
@@ -2445,6 +2448,7 @@ ul.social-network li {
 	margin:30px 0 0;
 	float:left;
 	background-color: #006699;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #inner-headline ul.breadcrumb li {
@@ -2476,52 +2480,66 @@ ul.breadcrumb li a:hover {
     Section: Content
 ==================================== */
 
-#content {
+#main-content {
 	position:relative;
 	background:#fff;
 	padding:60px 0 40px 0;
 }
 
-#content img {
+#main-content img {
 	margin-bottom: 30px;
 }
 
-#content h1 {
-	font-family: 'Poppins', sans-serif !important;
+#main-content h1 {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 1.2;
 	letter-spacing: -1px;
-	color: #454545;
+	color: #333333 ;
 	margin: 0 0 24px 0;
 }
 
-#content h2 {
-	/*font-family: 'Poppins', sans-serif !important;*/
+#main-content h2 {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
-	font-weight: 450;
-	color: #454545;
-	margin: 0 0 18px 0;
+	font-weight: 600;
+	color: #333333 ;
+	/*margin-top: 10px;*/
+	margin: 36px 0 12px 0;
 }
 
-#content h3 {
-	/*font-family: 'Poppins', sans-serif !important;*/
+#main-content h3 {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	/*font-weight: 450;*/
-	color: #454545;
+	color: #333333 ;
 	margin: 0 0 12px 0;
 }
 
-#content p {
-	/*font-family: 'Poppins', sans-serif !important;*/
+#main-content p {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	font-weight: 400;
-	color: #454545;
+	/*font-weight: 400;*/
+	color: #333333 ;
 	line-height: 1.4;
 	margin: 0 0 12px 0;
 }
 
-#content img {
+#main-content ul.keypoints {
+	font-family: Arial, Helvetica, sans-serif;
+	/*display: block;*/
+	list-style-type: disc;
+	list-style-position: inside;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+	font-size: 16px;
+	/*font-weight: 400;*/
+	color: #333333 ;
+}
+
+
+#main-content img {
 	margin-bottom: 30px;
 }
 
