@@ -4,7 +4,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="shortcut icon" href="../img/nxsensor-logo.png" type="image/png" sizes="16x16">
-<title>PV Module-Level Monitoring | NxSensor</title>
+<title>Rapid shutdown | NxSensor</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="TBD">
@@ -45,7 +45,7 @@
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="../solutions/pv-module-monitoring.html">Module-Level monitoring</a></li>
                   <li class="divider"></li>
-                  <li><a href="../solutions/pv-module-rapid-shutdown">Rapid shutdown</a></li>
+                  <li><a href="../solutions/pv-module-rapid-shutdown.html">Rapid shutdown</a></li>
                 </ul>
             </li>
             <li>
@@ -83,7 +83,7 @@
           <ul class="breadcrumb">
             <li><a href="../index.html"><i class="fa fa-home"></i> Home</a><i class="icon-angle-right"></i></li>
             <li class="active">Solutions<i class="icon-angle-right"></i></li>
-            <li class="active">Monitoring</li>
+            <li class="active">Rapid shutdown</li>
           </ul>
         </div>
       </div>
@@ -97,50 +97,45 @@
         <div class="row">
           <div class="col-lg-12">
 
-          <h1>PV Module-Level Monitoring</h1>
+          <h1>Rapid shutdown</h1>
           <div class="solidline"><br /></div>
 
           <h2>Overview</h2>
           <p>
-            .
+          The National Electrical Code (NEC) applies to the construction of PV systems installed on buildings. The 2014 version of the NEC includes a requirement for rapid shutdown of controlled conductors outside the PV array boundary.  The proposed 2017 NEC modified that rule to effectively require shutdown at the module level, which would have a dramatic impact on how systems are designed and installed moving forward.
           </p>
-
-          <h2>Why Module-level Monitoring?</h2>
-          <p>
-            .
-          </p>
-
 
 
           <h2>System Components</h2>
-          <p>:</p>
+          <ul class="keypoints">The system is comprised of three key components:
+            <li>The sensor unit: it is integrated into PV module, and has the functions of monitoring and rapid shutdown.</li>
+            <li>The gateway: it transfers information with sensor units by wireless method, and receives signal from the RSD sources.</li>
+            <li>The RSD sources: the devices that generate the rapid shutdown signals, could be inverter or safe buttons.</li>
+          </ul>
 
           <div align="center">
-            <img class="nobottom" src="../img/solutions/nxsensor-topology.png" alt="The components in a NxSensor system, including sensor units, gateways, cloud platform, and user terminals." width="800" />
-            <p class="imgdesc">The NxSensor system components</p>
+            <img class="nobottom" src="../img/solutions/nxsensor-topology-rapid-shutdown.png" alt="The components in a NxSensor rapid shutdown system, including sensor units, gateways, RSD signals from inverters or buttons." width="800" />
+            <p class="imgdesc">The NxSensor RSD system</p>
           </div>
 
-          <p class="bullets">(1) The sensor unit</p>
-          <p>
-            The sensor unit is integrated into the junction box of the associate PV module, it continuously measures the voltage of the module output and the temperature of the junction box, offering insight into module-level performance.
-          </p>
 
+          <h2>How it works</h2>
+          <p>The sensor units continuously get "allow-to-work" messages from the gateway. When rapid shutdown is triggered, the gateway receives RSD signal from the inverters or RSD buttons, this could be done by  either data buses or on/off signals. After that, the gateway stops sending "allow-to-work" messages, and the sensor unit turns off the associated PV module's power output within 10 seconds.</p>
+
+          <p>The sensor unit is powered by the PV module. After the shutdown, it is able to continue to listen to the "allow-to-work" messages from the gateway, which is for the purpose of recovering the power output later. </p>
+
+          <p>Since the sensor units and the gateway are communicated by wireless method, the PV module's power could be completely shut down, while the PLC (Power-line communication) based rapid shutdown system would keep a low voltage on the sensor unit to avoid the system deadlock.</p>
+          <div align="center">
+            <img class="nobottom" src="../img/solutions/rapid-shutdown-wireless-message.png" alt="solar PV power NEC 2017 690.12 rapid shutdown requirements, wireless message work flow, module-level shutdown" width="560" />
+            <p class="imgdesc">Rapid shutdown message flow</p>
+          </div>
 
           <h2>Features</h2>
           <ul class="keypoints">
-            <li>;</li>
-            <li>;</li>
+            <li>Meets NEC 2017 690.12 Rapid Shutdown requirements;</li>
+            <li>HOHWave™ wireless mesh network based communication;</li>
+            <li>PV module could be completely shutdown with 0 V output;</li>
           </ul>
-
-          <h2>Benefits</h2>
-          <div align="center">
-            <img class="nobottom" src="../img/solutions/financial-return-yield-more-save-more.jpg" alt="PV module monitoring with better financial returns to yield more and save more." width="640" />
-            <p class="imgdesc">Yield more and save more</p>
-          </div>
-
-          <p>
-            .
-          </p>
 
 
           </div>
