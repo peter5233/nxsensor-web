@@ -102,15 +102,15 @@
 
           <h2>Overview</h2>
           <p>
-          The National Electrical Code (NEC) applies to the construction of PV systems installed on buildings. The 2014 version of the NEC includes a requirement for rapid shutdown of controlled conductors outside the PV array boundary.  The proposed 2017 NEC modified that rule to effectively require shutdown at the module level, which would have a dramatic impact on how systems are designed and installed moving forward.
+          The National Electrical Code (NEC) applies to the construction of PV systems installed on buildings. The 2014 version of the NEC includes a requirement for rapid shutdown of controlled conductors outside the PV array boundary.  The proposed 2017 NEC modified that rule to effectively require shutdown at the module level, which could have a dramatic impact on how systems are designed and installed moving forward.
           </p>
 
 
           <h2>System Components</h2>
           <ul class="keypoints">The system is comprised of three key components:
             <li>The sensor unit: it is integrated into PV module, and has the functions of monitoring and rapid shutdown.</li>
-            <li>The gateway: it transfers information with sensor units by wireless method, and receives signal from the RSD sources.</li>
-            <li>The RSD sources: the devices that generate the rapid shutdown signals, could be inverter or safe buttons.</li>
+            <li>The gateway: it transfers information with sensor units. It receives rapid shutdown signals from the RSD sources.</li>
+            <li>The RSD sources: the devices that generate the rapid shutdown signals, could be inverters or RSD safe buttons.</li>
           </ul>
 
           <div align="center">
@@ -120,15 +120,17 @@
 
 
           <h2>How it works</h2>
-          <p>The sensor units continuously get "allow-to-work" messages from the gateway. When rapid shutdown is triggered, the gateway receives RSD signal from the inverters or RSD buttons, this could be done by  either data buses or on/off signals. After that, the gateway stops sending "allow-to-work" messages, and the sensor unit turns off the associated PV module's power output within 10 seconds.</p>
+          <p>The sensor units continuously and periodically get "allow-to-work" messages from the gateway. When rapid shutdown is triggered, the gateway receives RSD signal from the inverters or RSD buttons, this could be achieved by either data buses or simple on/off signals. After that, the gateway stops sending "allow-to-work" messages. If the sensor unit doesn't get "allow-to-work" messages within 10 seconds, it would cut off the associated PV module's power output.</p>
 
-          <p>The sensor unit is powered by the PV module. After the shutdown, it is able to continue to listen to the "allow-to-work" messages from the gateway, which is for the purpose of recovering the power output later. </p>
-
-          <p>Since the sensor units and the gateway are communicated by wireless method, the PV module's power could be completely shut down, while the PLC (Power-line communication) based rapid shutdown system would keep a low voltage on the sensor unit to avoid the system deadlock.</p>
           <div align="center">
             <img class="nobottom" src="../img/solutions/rapid-shutdown-wireless-message.png" alt="solar PV power NEC 2017 690.12 rapid shutdown requirements, wireless message work flow, module-level shutdown" width="560" />
-            <p class="imgdesc">Rapid shutdown message flow</p>
+            <p class="imgdesc">The rapid shutdown message flow</p>
           </div>
+
+
+          <p>Since the sensor unit is powered by the PV module, it is still able to continue to listen to the "allow-to-work" messages during the shutdown stage, this is for the purpose of recovering the PV module's power output later. </p>
+
+          <p>Because the sensor units and the gateway are communicated by wireless method, the PV module's power could be completely shut down. In comparsion with the PLC (Power-line communication) based rapid shutdown solutions, they would need a low voltage output on the PV module, keeping the sensor unit's communication availability, in order to avoid the system deadlock.</p>
 
           <h2>Features</h2>
           <ul class="keypoints">
