@@ -48,7 +48,7 @@
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/NxSensor-junction-box.jpg</image:loc>
-       <image:caption>The smart solar PV (Photovoltaics) panel integrated with The NxSensor Smart MLPE (module-level power electronics) sensors.</image:caption>
+       <image:caption>The smart solar PV (Photovoltaic) panel integrated with The NxSensor Smart MLPE (module-level power electronics) sensors.</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/nxsensor-configuration-mobile-app.png</image:loc>
@@ -60,19 +60,19 @@
     <loc>http://www.nxsensor.com/en/products/smart-junction-box.html</loc>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/solar-pv-smart-junction-box-A.jpg</image:loc>
-       <image:caption>One of the NxSensor smart solar PV (Photovoltaics) panel junction box</image:caption>
+       <image:caption>One of the NxSensor smart solar PV (Photovoltaic) panel junction box</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/solar-pv-smart-junction-box-B.jpg</image:loc>
-       <image:caption>the NxSensor smart solar PV (Photovoltaics) panel junction box from xtong-solar.com</image:caption>
+       <image:caption>the NxSensor smart solar PV (Photovoltaic) panel junction box from xtong-solar.com</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/solar-pv-smart-junction-box-C.jpg</image:loc>
-       <image:caption>the NxSensor smart solar PV (Photovoltaics) panel junction box from forsol.net</image:caption>
+       <image:caption>the NxSensor smart solar PV (Photovoltaic) panel junction box from forsol.net</image:caption>
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/solar-pv-smart-junction-box-S-A.jpg</image:loc>
-       <image:caption>the NxSensor smart solar PV (Photovoltaics) panel junction box for Almaden double-glass Solar PV modules</image:caption>
+       <image:caption>the NxSensor smart solar PV (Photovoltaic) panel junction box for Almaden double-glass Solar PV modules</image:caption>
     </image:image>
   </url>
 
@@ -104,7 +104,7 @@
     </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/products/hohwave-pv-module-level-data-communication.jpg</image:loc>
-       <image:caption>HOHWave Wireless technology is the best for solar PV (Photovoltaics) panel level data communication </image:caption>
+       <image:caption>HOHWave Wireless technology is the best for solar PV (Photovoltaic) panel level data communication </image:caption>
     </image:image>
   </url>
 
