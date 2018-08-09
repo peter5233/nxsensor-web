@@ -6,7 +6,7 @@
   <url>
     <loc>http://www.nxsensor.com/en/index.html</loc>
     <image:image>
-       <image:loc>http://www.nxsensor.com/en/img/products/nxsensor-product-integrated-with-solar-pv-module.png</image:loc>
+       <image:loc>http://www.nxsensor.com/en/img/products/nxsensor-product-integrated-with-solar-pv-module-home.jpg</image:loc>
        <image:caption>The NxSensor Smart MLPE (module-level power electronics) sensors integrated with solar PV modules, PV panels, and junction boxes.</image:caption>
     </image:image>
   </url>
@@ -14,6 +14,10 @@
 
   <url>
     <loc>http://www.nxsensor.com/en/solutions/pv-module-monitoring.html</loc>
+    <image:image>
+       <image:loc>http://www.nxsensor.com/en/img/solutions/solar-panel-faults.jpg</image:loc>
+       <image:caption>Typical solar panel faults, including PID, bypassing diodes, soiling, micro cracks.</image:caption>
+    </image:image>
     <image:image>
        <image:loc>http://www.nxsensor.com/en/img/solutions/pv-module-faults-challenges.jpg</image:loc>
        <image:caption>The challenge of solar power management and operation and maintenance.</image:caption>

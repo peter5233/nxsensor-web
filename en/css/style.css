@@ -685,7 +685,7 @@ font-family: 'Arial';
 }
 
 .image-bg .hero-content p {
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFFFFF;
 }
 
@@ -1160,7 +1160,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-intro p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 	color: #A1A1A1;
 	letter-spacing: 0;
@@ -1600,7 +1600,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .review-text p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 	font-weight: 300;
   padding: 20px 10px 20px 10px;
 	letter-spacing: 1px;
@@ -1842,7 +1842,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cta-sub .cta-inner p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #FFFFFF;
 	font-weight: 300;
 	line-height: 1.4;
