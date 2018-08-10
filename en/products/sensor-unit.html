@@ -8,8 +8,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Jiayan Li" />
-<meta name="keywords" content="PV panel (Photovoltaic panel) module monitoring, panel-level monitoring, MLPE, rapid shutdown, NEC 2017">
-<meta name="description" content="Smart Sensor and MLPE devices integrated into the junction box of a PV panel (Photovoltaic panel) module, and continuously measures the voltage and temperature data of the associated PV module">
+<meta name="keywords" content="solar monitor, solar logging, solar panel maintenance, solar panel junction box, solar panel maintenance, solar asset management, RFID, solar shading effect, rapid shutdown, MLPE, solar monitoring system">
+<meta name="description" content="Smart Sensor and MLPE devices, integrated into the junction box of a solar panel (Photovoltaic panel), continuously measure and verificate voltage and temperature of the associated solar panel. It is one of the best methods to monitor a solar panel's performance with the most precise and detailed information.">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118765111-2"></script>
@@ -109,7 +109,7 @@
         <div class="row">
           <div class="col-lg-12">
 
-          <h1>Sensor Unit for PV Module</h1>
+          <h1>Sensor Unit for Solar Module</h1>
           <div class="solidline"><br /></div>
 
           <h2>Overview</h2>
@@ -118,26 +118,55 @@
           </p>
 
           <p>
-            The sensor unit is the core component of the NxSensor system, it is a SoC (System-on-Chip) device that can be integrated into different forms of solar PV junction boxes, and continuously measures the voltage and temperature data of a associated PV module.
+            The sensor unit is the core component of the NxSensor system, it is a MLPE (Module-Level Power Electronics) device that can be integrated into different forms of solar panel's junction box or add-on/retrofit box, and it continuously measures voltage and temperature of the associated PV module.
           </p>
 
           <p>
             Besides monitoring, the sensor unit also supports module-level rapid shutdown functionality, complying with NEC 2017 690.12 RSD requirements.
           </p>
 
+          <p>For J-box models it supports, please check here at <a href="./smart-junction-box.html">Smart Junction Box</a>, or <a href="./add-on-retrofit-box.html">Add-on/Retrofit Box</a>.</p>
+
           <div align="center">
-            <img class="nobottom" src="../img/products/nxsensor-product-integrated-with-solar-pv-module.jpg" alt="NxSensor core sensor unit device integrated into the junction box for MPPT, monitoring, rapid shutdown NEC2017." width="640" />
+            <img class="nobottom" src="../img/products/nxsensor-product-integrated-with-solar-pv-module.jpg" alt="NxSensor sensor unit MLPE device integrated into solar panel's junction box for monitoring, NEC 2017 rapid shutdown, and power optmization." width="560" />
             <p class="imgdesc">NxSensor sensor unit</p>
           </div>
+
+          <h2>How to monitor a solar panel's performance?</h2>
+          <p>
+            We use the integrated junction box to illustrate how it works. For add-on/retrofit box, the working principle is similar, the difference is in wiring connections and the box shells.
+          </p>
+
+          <p>
+            The sensor unit has a pair of thimbles sticking onto the positive and negative sides of the solder strips in the junction box, respectively. They are used to sample the panel's voltage output. Since all panels on the same string have same current, voltage is an important index to measure a panel's performance.
+          </p>
+
+          <p>
+            The sensor unit also has an onboard temperature sensor, it is used to measure the temperature of a junction box. Defective bypass-diodes in junction box are a common failure, they most often show up as rising temperature at early stage.
+          </p>
+
+          <p>
+            For current monitoring, we will have dedicated device on each string to acquire and measure current data. Coming soon.
+          </p>
+
+          <p>
+            All in all, the sensor unit constantly monitors the panels for low performance, and for over voltage, over temperature, over current as well.
+          </p>
+
+          <div align="center">
+            <img class="nobottom" src="../img/products/NxSensor-junction-box.jpg" alt="NxSensor sensor unit in a solar panel junction box to illustrate how to monitor a solar panel's performance." width="640" />
+            <p class="imgdesc">NxSensor in a junction box</p>
+          </div>
+
 
           <h2>Tech Specs</h2>
           <ul class="keypoints">
             <li>Voltage measurement from 7V to 60V, with ±0.2V accuracy;</li>
             <li>Temperature measurement from -40°C to 75°C, with ±0.5°C accuracy;</li>
+            <li>Maximum input voltage: 90V;</li>
             <li>PCB dimension of 40 mm * 28 mm * 4 mm;</li>
             <li>NEC 690.12 rapid shutdown compliant;</li>
-            <li>Built-in 600V surge protection;</li>
-            <li>2.4GHz ISM radio band and wireless connectivity in HOHWave™ network;</li>
+            <li>2.4GHz ISM RF with HOHWave™ wireless sensor network;</li>
           </ul>
 
           <h2>Features</h2>
@@ -146,35 +175,24 @@
             <li>Wireless connectivity supported, no hard wires needed for data communication;</li>
             <li>Compact size, could be embedded into double-glass PV module's junction box;</li>
             <li>Easy installation and easy configuration for the existing solar power systems;</li>
+            <li>Add RFID to each individual solar panel for better solar asset management;</li>
           </ul>
 
           <h2>The NxSensor Network</h2>
           <p>
-            The sensor unit's role in a NxSensor network:
+            The sensor unit's role in the NxSensor network:
           </p>
           <div align="center">
-            <img class="nobottom" src="../img/products/nxsensor-topology-modules.png" alt="NxSensor system architecture at module stage, data communication via HOHWave 2.4GHz ISM Wireless Mesh Networks." width="800" />
+            <img class="nobottom" src="../img/products/nxsensor-topology-modules.png" alt="NxSensor system architecture at solar panel stage, module-level data communication via HOHWave 2.4GHz ISM Wireless Mesh Networks." width="800" />
             <p class="imgdesc">The sensors and the PV modules in the NxSensor Network</p>
-          </div>
-
-          <h2>Installation on Existing Junction Box</h2>
-          <p>
-            Some junction box has enough internal space for NxSensor sensor unit, and its back cover could be easily opened. The sensor unit has a pair of thimbles for voltage sampling, they can stick onto the positive and negative sides of the junction box, respectively. Since different junction box may have different distance of the positive point and the negative point, you can consult NxSensor for the right product selection that fits your condition.
-          </p>
-
-          <p>Please note this installation method is for professionals to install few sensor units for validation purpose only. And you should always be particularly careful in modifying the junction box or making connections at the PV modules.</p>
-
-          <div align="center">
-            <img class="nobottom" src="../img/products/NxSensor-junction-box.jpg" alt="NxSensor sensor unit in a generic junction box." width="640" />
-            <p class="imgdesc">NxSensor in a junction box</p>
           </div>
 
           <h2>Device Configuration</h2>
           <p>
-            NxSensor has a mobile APP to configure the module's electrical connection attributes, such as the string number and the module's sequence number in a string.
+            NxSensor has a mobile APP to configure the panel's electrical connection attributes, such as the string number and the panel's sequence number. This could be used as an ID to pinpoint a solar panel in a power system.
           </p>
           <div align="center">
-            <img class="nobottom" src="../img/products/nxsensor-configuration-mobile-app.png" alt="NxSensor configuration mobile APP to configure mobile's electrical connection attribute." width="600" />
+            <img class="nobottom" src="../img/products/nxsensor-configuration-mobile-app.png" alt="NxSensor configuration mobile APP to configure mobile's electrical connection attribute, add RFID function to solar panel." width="560" />
             <p class="imgdesc">The mobile APP for device configuration</p>
           </div>
 
